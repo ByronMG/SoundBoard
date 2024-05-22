@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		912691602BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9126915E2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodeld */; };
+		9178214F2BFE5CBE00E4F71B /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9178214D2BFE471B00E4F71B /* SoundViewController.swift */; };
 		91B9BE662BFE3C91003246ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9BE652BFE3C91003246ED /* AppDelegate.swift */; };
 		91B9BE682BFE3C91003246ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9BE672BFE3C91003246ED /* SceneDelegate.swift */; };
 		91B9BE6A2BFE3C91003246ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B9BE692BFE3C91003246ED /* ViewController.swift */; };
 		91B9BE6D2BFE3C91003246ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B9BE6B2BFE3C91003246ED /* Main.storyboard */; };
-		91B9BE702BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91B9BE6E2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodeld */; };
 		91B9BE722BFE3C92003246ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B9BE712BFE3C92003246ED /* Assets.xcassets */; };
 		91B9BE752BFE3C92003246ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B9BE732BFE3C92003246ED /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9126915F2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManchegoSoundBoard.xcdatamodel; sourceTree = "<group>"; };
+		9178214D2BFE471B00E4F71B /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		91B9BE622BFE3C91003246ED /* ManchegoSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManchegoSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B9BE652BFE3C91003246ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91B9BE672BFE3C91003246ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91B9BE692BFE3C91003246ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91B9BE6C2BFE3C91003246ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91B9BE6F2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManchegoSoundBoard.xcdatamodel; sourceTree = "<group>"; };
 		91B9BE712BFE3C92003246ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91B9BE742BFE3C92003246ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91B9BE762BFE3C92003246ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,10 +64,11 @@
 				91B9BE672BFE3C91003246ED /* SceneDelegate.swift */,
 				91B9BE692BFE3C91003246ED /* ViewController.swift */,
 				91B9BE6B2BFE3C91003246ED /* Main.storyboard */,
+				9178214D2BFE471B00E4F71B /* SoundViewController.swift */,
 				91B9BE712BFE3C92003246ED /* Assets.xcassets */,
 				91B9BE732BFE3C92003246ED /* LaunchScreen.storyboard */,
 				91B9BE762BFE3C92003246ED /* Info.plist */,
-				91B9BE6E2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodeld */,
+				9126915E2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodeld */,
 			);
 			path = ManchegoSoundBoard;
 			sourceTree = "<group>";
@@ -141,9 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9178214F2BFE5CBE00E4F71B /* SoundViewController.swift in Sources */,
 				91B9BE6A2BFE3C91003246ED /* ViewController.swift in Sources */,
 				91B9BE662BFE3C91003246ED /* AppDelegate.swift in Sources */,
-				91B9BE702BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodeld in Sources */,
+				912691602BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodeld in Sources */,
 				91B9BE682BFE3C91003246ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,12 +366,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		91B9BE6E2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodeld */ = {
+		9126915E2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				91B9BE6F2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodel */,
+				9126915F2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodel */,
 			);
-			currentVersion = 91B9BE6F2BFE3C91003246ED /* ManchegoSoundBoard.xcdatamodel */;
+			currentVersion = 9126915F2BFE5DF200CC8EAE /* ManchegoSoundBoard.xcdatamodel */;
 			path = ManchegoSoundBoard.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
